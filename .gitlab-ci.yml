@@ -1,9 +1,8 @@
 pages:
-  image: registry.gitlab.com/pages/hugo:latest
+  image: node:lts
   script:
-    - hugo
+    - npm install
+    - ./node_modules/.bin/hugo --minify -b "https://cactus-comments.gitlab.io/cactus.chat/"
   artifacts:
     paths:
       - public
-  only:
-    - main

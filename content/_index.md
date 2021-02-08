@@ -1,9 +1,9 @@
 ---
-title : "Modern Documentation Theme"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-date: 2020-10-06T08:47:36+00:00
-lastmod: 2020-10-06T08:47:36+00:00
+title : "Cactus Comments"
+description: "Cactus Comments is a federated comment system for the web, based on the Matrix protocol."
+lead: "Cactus Comments is a federated comment system for the web, based on the Matrix protocol."
+date: 2021-02-09T00:03:36+00:00
+lastmod: 2021-02-09T00:03:36+00:00
 draft: false
 images: []
 ---

@@ -1,0 +1,10 @@
+version: "3.4"
+
+
+services:
+    hugo:
+        build: .
+        ports:
+            - 127.0.0.1:1313:1313
+        volumes:
+            - .:/code

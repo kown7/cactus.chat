@@ -2,7 +2,7 @@ pages:
   image: node:lts
   script:
     - npm install
-    - npm run build
+    - ./node_modules/.bin/hugo --minify -b "https://cactus-comments.gitlab.io/cactus.chat/"
   artifacts:
     paths:
       - public

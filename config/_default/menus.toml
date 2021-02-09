@@ -1,8 +1,8 @@
 [[docs]]
-  name = "Prologue"
+  name = "Getting Started"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "getting-started"
+  url = "/docs/getting-started/"
 
 [[docs]]
   name = "Help"

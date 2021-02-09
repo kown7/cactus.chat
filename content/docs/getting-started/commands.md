@@ -8,7 +8,7 @@ draft: false
 images: []
 menu: 
   docs:
-    parent: "prologue"
+    parent: "getting-started"
 weight: 130
 toc: true
 ---
@@ -17,7 +17,7 @@ toc: true
 
 ## start
 
-Start local development server:
+sStart local development server:
 
 {{< btn-copy text="npm run start" >}}
 

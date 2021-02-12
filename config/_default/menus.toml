@@ -5,6 +5,12 @@
   url = "/docs/getting-started/"
 
 [[docs]]
+  name = "Self-Hosting"
+  weight = 30
+  identifier = "selfhost"
+  url = "/docs/self-hosting/"
+
+[[docs]]
   name = "Help"
   weight = 60
   identifier = "help"

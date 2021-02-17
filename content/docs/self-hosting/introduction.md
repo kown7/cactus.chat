@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Why self-host?"
 description: "Introduction to self-hosting to Cactus Comments backend"
 lead: "How to self-host the Cactus Comments backend."
 date: 2020-10-06T08:49:31+00:00

@@ -5,16 +5,22 @@
   url = "/docs/getting-started/"
 
 [[docs]]
+  name = "Reference"
+  weight = 20
+  identifier = "reference"
+  url = "/docs/reference/"
+
+[[docs]]
   name = "Self-Hosting"
   weight = 30
   identifier = "selfhost"
   url = "/docs/self-hosting/"
 
 [[docs]]
-  name = "Help"
+  name = "Community"
   weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+  identifier = "community"
+  url = "/docs/community/"
 
 [[main]]
   name = "Documentation"

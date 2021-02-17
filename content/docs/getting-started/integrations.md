@@ -13,8 +13,18 @@ weight: 130
 toc: true
 ---
 
+It is a goal of the Cactus Comments project to be easily used with (almost) all
+website solutions. This page describes how to embed Cactus Comments in
+particular solutions. We are not experts in all these systems and need your
+help. Please [submit a merge request](../../community/contribute/) if you think
+this site can be improved, or [let us know](../../community/community/) that
+something is missing or can be improved.
+
 
 ## Hugo
 
 
 ## Jekyll
+
+
+## WordPress

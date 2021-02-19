@@ -40,7 +40,7 @@ homeserver with pure HTTP calls and not through an SDK using the
 [requests](https://requests.readthedocs.io/) HTTP library. The application is
 containerized with [docker](https://www.docker.com/). You can read and
 [contribute](../../community/contribute/) to the entire source code
-[here](https://gitlab.com/cactus-comments/cactus-appservice)
+[here](https://gitlab.com/cactus-comments/cactus-appservice).
 
 
 ## Chatbot Interface

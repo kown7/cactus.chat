@@ -1,7 +1,7 @@
 ---
-title: "Why self-host?"
+title: "Why Self-Host?"
 description: "Introduction to self-hosting to Cactus Comments backend"
-lead: "How to self-host the Cactus Comments backend."
+lead: "Why you may want to self-host the Cactus Comments backend."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false
@@ -17,9 +17,9 @@ toc: true
 ## Why?
 
 If you follow the [Quick Start](../../getting-started/quick-start) guide, you
-will be using the infrastructure provided by us. It may be desirable to host
-these programs yourself to avoid any dependence on a third party (in this case,
-us).
+will be using the public infrastructure provided by us. It may be desirable to
+host these programs yourself to avoid any dependence on a third party (in this
+case, us).
 
 
 ## Infrastructure

@@ -1,7 +1,7 @@
 ---
 title: "Quick Start"
 description: "One page summary of how to embed Cactus Comments on your site."
-lead: "This page shows the easiest way to embed Cactus Comments on your site."
+lead: "This guide shows the easiest way to embed Cactus Comments on your website."
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
@@ -12,6 +12,10 @@ menu:
 weight: 110
 toc: true
 ---
+
+The setup described here will use the public cactus.chat servers. If you want
+to host your own server, see [self-hosting](../../self-hosting/introduction).
+
 
 ## Prerequisites
 
@@ -40,6 +44,8 @@ to match your domain.
 
 To embed the Cactus Comments frontend, you need to include the following JS and
 CSS:
+
+**TODO: use the rolling release links here.**
 
 ```
 <script type="text/javascript" src="https://gateway.pinata.cloud/ipfs/QmVQYzRzcXS3hvYxL7dpWdT8YRbb4AfZzmtMsMmaWpS9Wo/v0.3.1/cactus.js"></script>

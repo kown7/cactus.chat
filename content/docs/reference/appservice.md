@@ -55,7 +55,9 @@ interface.
 ## Configuration
 
 The Cactus Comment application service is entirely configured with environment
-variables.
+variables. You only need to configure the appservice if you are [self-hosting
+Cactus Comments](../../self-hosting/introduction) and not when using the public
+[@cactusbot:cactus.chat](https://matrix.to/#/@cactusbot:cactus.chat).
 
 | Name                    | Required? | Description                                                                                                                                                                    |
 |-------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

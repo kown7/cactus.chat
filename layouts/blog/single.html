@@ -10,21 +10,7 @@
       {{ .Content }}
     </article>
 
-    <script type="text/javascript" src="https://rolling.cactus.chat/cactus.js"></script>
-    <link rel="stylesheet" href="https://rolling.cactus.chat/style.css" type="text/css">
-
-    <div id="comment-section">
-    </div>
-
-    <script>
-      initComments({
-        node: document.getElementById("comment-section"),
-        defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
-        siteName: "cactus.chat",
-        commentSectionId: "{{ .Params.commentSectionId }}",
-        serverName: "cactus.chat"
-      })
-    </script>
+    {{ partial "comments/comments.html" . }}
 
   </div>
 </div>

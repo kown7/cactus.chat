@@ -5,6 +5,7 @@
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </article>
+    {{ partial "comments/comments.html" . }}
   </div>
 </div>
 {{ end }}

@@ -65,10 +65,10 @@ Finally, you need to initialize the comment section:
 <script>
 initComments({
   node: document.getElementById("comment-section"),
-  defaultHomeserverUrl: "https://cactus.chat",
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
   siteName: "<YOUR-SITE-NAME>",
-  commentSectionId: "section1",
-  serverName: "cactus.chat"
+  commentSectionId: "section1"
 })
 </script>
 ```

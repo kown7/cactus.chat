@@ -46,8 +46,8 @@ To embed the Cactus Comments frontend, you need to include the following JS and
 CSS:
 
 ```
-<script type="text/javascript" src="https://rolling.cactus.chat/cactus.js"></script>
-<link rel="stylesheet" href="https://rolling.cactus.chat/style.css" type="text/css">
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
 ```
 
 Those URLs will continuously update, as new versions of the client are released.

@@ -45,12 +45,13 @@ to match your domain.
 To embed the Cactus Comments frontend, you need to include the following JS and
 CSS:
 
-**TODO: use the rolling release links here.**
+```
+<script type="text/javascript" src="https://rolling.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://rolling.cactus.chat/style.css" type="text/css">
+```
 
-```
-<script type="text/javascript" src="https://gateway.pinata.cloud/ipfs/QmVQYzRzcXS3hvYxL7dpWdT8YRbb4AfZzmtMsMmaWpS9Wo/v0.3.1/cactus.js"></script>
-<link rel="stylesheet" href="https://gateway.pinata.cloud/ipfs/QmVQYzRzcXS3hvYxL7dpWdT8YRbb4AfZzmtMsMmaWpS9Wo/v0.3.1/style.css" type="text/css">
-```
+Those URLs will continuously update, as new versions of the client are released.
+If you want to pin it to a specific version, check out [the Gitlab releases page](https://gitlab.com/cactus-comments/cactus-client/-/releases).
 
 Then insert a `<div>` where you want the comment section to appear:
 

@@ -11,3 +11,5 @@ commentSectionId: demopage
 
 Here is an embedded comment section, so you can get a feel of what Cactus
 Comments is like. Enjoy 👋
+
+⚠ Shitposts allowed ⚠

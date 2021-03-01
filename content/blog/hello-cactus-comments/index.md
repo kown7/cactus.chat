@@ -25,7 +25,7 @@ help with moderation. It is built with Python and is completely stateless. It
 does this by modelling all state in native Matrix objects without any custom
 events -- pretty neat indeed!
 
-The entire thing is free and open source software, so feel free to
-[contribute](../../docs/community/contribute). We host a public instance to
+The entire thing is free and open source software and [we welcome
+contributions](../../docs/community/contribute). We host a public instance to
 make it very [easy to get started](../../docs/getting-started/quick-start).
 Thanks for reading and we hope you will enjoy Cactus Comments!

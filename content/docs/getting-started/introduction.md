@@ -21,6 +21,10 @@ Comments](../../self-hosting/howto). We would love it, if you [engaged with the
 community](../../community/community) or otherwise
 [contributed](../../community/contribute). 💕.
 
+Disclaimer: we strive to keep Cactus Comments a "production ready" comment
+system. Please bear in mind that the system is still new and many features will
+be implemented later.
+
 <img src="../../../cactus500.png"
  alt="Cactus Comments logo"
  caption="<em>Cactus Comments logo</em>" class="img-fluid"/>

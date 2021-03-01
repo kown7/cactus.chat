@@ -60,3 +60,17 @@ This function should be called somewhere in the embedding webpage, with one argu
 | `pageSize`                  | No          | An integer number of comments to show "per page". This is both the number of comments loaded initially, and the number of additional comments loaded when "View More" is pressed.
 
 For example usage, see the [quick-start guide](../../getting-started/quick-start).
+
+
+## Releases
+
+If you want to include the newest release of Cactus Comments on your website,
+you should use the `latest` links:
+
+```
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+```
+
+If you want to pin it to a specific version, check out [the Gitlab releases
+page](https://gitlab.com/cactus-comments/cactus-client/-/releases).

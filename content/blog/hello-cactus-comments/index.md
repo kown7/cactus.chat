@@ -7,7 +7,7 @@ lastmod: 2021-03-01T16:26:29
 draft: false
 weight: 50
 contributors: ["Asbjørn Olling", "Carl Bordum Hansen"]
-commentSectionId: hello-cactus-comments
+commentSectionId: blogpost-hello-cactus
 ---
 
 Cactus Comments is a federated, web-embeddable comment system. We federate by

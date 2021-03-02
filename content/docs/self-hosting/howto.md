@@ -70,10 +70,10 @@ variables and they should match those defined in the appservice registration
 file above:
 
 ```
-CACTUS_HS_TOKEN="b3b05236568ab46f0d98a978936c514eac93d8f90e6d5cd3895b3db5bb8d788b"
-CACTUS_AS_TOKEN="a2d7789eedb3c5076af0864f4af7bef77b1f250ac4e454c373c806876e939cca"
-CACTUS_HOMESERVER_URL="http://synapse:8008"
-CACTUS_USER_ID="@cactusbot:example.com"
+CACTUS_HS_TOKEN=b3b05236568ab46f0d98a978936c514eac93d8f90e6d5cd3895b3db5bb8d788b
+CACTUS_AS_TOKEN=a2d7789eedb3c5076af0864f4af7bef77b1f250ac4e454c373c806876e939cca
+CACTUS_HOMESERVER_URL=http://synapse:8008
+CACTUS_USER_ID=@cactusbot:example.com
 ```
 
 

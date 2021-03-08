@@ -22,34 +22,6 @@ document.addEventListener('click', function(event) {
 
 });
 
-/*
-Source:
-  - https://dev.to/shubhamprakash/trap-focus-using-javascript-6a3
-*/
-
-document.addEventListener('keydown',suggestionFocus);
-
-function suggestionFocus(e){
-
-  const focusableSuggestions= suggestions.querySelectorAll('a');
-  const focusable= [...focusableSuggestions];
-  const index = focusable.indexOf(document.activeElement);
-
-  let nextIndex = 0;
-
-  if (e.keyCode === 38) {
-    e.preventDefault();
-    nextIndex= index > 0 ? index-1 : 0;
-    focusableSuggestions[nextIndex].focus();
-  }
-  else if (e.keyCode === 40) {
-    e.preventDefault();
-    nextIndex= index+1 < focusable.length ? index+1 : index;
-    focusableSuggestions[nextIndex].focus();
-  }
-
-}
-
 
 /*
 Source:

@@ -1,5 +1,5 @@
 ---
-title: "Integrations"
+title: "Mkdocs Material"
 description: "Integrating Cactus Comments with your website solution."
 lead: "Cactus Comments is built to be integrated in any website solution."
 date: 2020-10-13T15:21:01+02:00
@@ -8,37 +8,10 @@ draft: false
 images: []
 menu: 
   docs:
-    parent: "getting-started"
+    parent: "integrations"
 weight: 130
 toc: true
 ---
-
-It is a goal of the Cactus Comments project to be easily used with (almost) all
-website solutions. This page describes how to embed Cactus Comments in
-particular solutions. We are not experts in all these systems and need your
-help. Please [submit a merge request](../../community/contribute/) if you think
-this site can be improved, or [let us know](../../community/community/) that
-something is missing or can be improved.
-
-
-## Hugo
-
-
-## Jekyll
-
-
-## WordPress
-
-
-## Pelican
-
-If you are using [Pelican](https://blog.getpelican.com/) to generate your
-website, [kellya](https://matrix.to/#/@kellya:arachnitech.com) from
-[arachnitech.com](https://arachnitech.com) developed
-[poke](https://github.com/kellya/poke) to help you. poke consists of a theme
-template and a script that can be used to replace disqus with Cactus Comments.
-
-## Mkdocs Material
 
 Please first complete the "Prerequisites" and "Register Your Site" sections on the [quickstart page](../quick-start).
 
@@ -51,11 +24,11 @@ theme:
   custom_dir: overrides
 ```
 
-### Add main.html for overrides
+## Add main.html for overrides
 In the `custom_dir`, create a file called `main.html`. 
 This allows [overriding a block](https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks), the comments block specifically in this case.
 
-### Override disqus block
+## Override disqus block
 Set the contents of `main.html` to [override the disqus block](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/#other-comment-systems).
 
 Make sure to change the `siteName` in the `initComments` section, and if needed, change the `serverName` and the `defaultHomeserverUrl`. 

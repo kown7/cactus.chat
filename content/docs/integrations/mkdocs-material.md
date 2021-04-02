@@ -1,7 +1,7 @@
 ---
-title: "Mkdocs Material"
-description: "Integrating Cactus Comments with your website solution."
-lead: "Cactus Comments is built to be integrated in any website solution."
+title: "MkDocs Material"
+description: "Integrating Cactus Comments with the Material theme for MkDocs."
+lead: "Integrating Cactus Comments with the Material theme for MkDocs."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false

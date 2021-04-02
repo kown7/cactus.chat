@@ -1,7 +1,7 @@
 ---
 title: "Pelican"
-description: "Integrating Cactus Comments with your website solution."
-lead: "Cactus Comments is built to be integrated in any website solution."
+description: "Integrating Cactus Comments with Pelican."
+lead: "Integrating Cactus Comments with the Pelican static-site generator."
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false

@@ -52,12 +52,14 @@ This function should be called somewhere in the embedding webpage, with one argu
 
 | Name                      | Required?   | Description                                                                                                                                                                      |
 | ------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`                      | Yes         | A DOM node, which the comment section will be rendered inside.                                                                                                                   |
-| `defaultHomeserverUrl`      | Yes         | The full URL of a Matrix homeserver. This homeserver needs to have an instance of the Cactus appservice running, and have guest registrations enabled.                           |
-| `serverName`                | Yes         | The server name of the same Matrix homeserver as above. This is usually just the domain part of the  homeserver url.
-| `siteName`                  | Yes         | The `siteName` which you have registered via the appservice's chatbot interface.
-| `commentSectionId`          | Yes         | A string identifying the comment section used. If two client instances have the same string here, they will show the same comment section. Cannot contain underscores.
-| `pageSize`                  | No          | An integer number of comments to show "per page". This is both the number of comments loaded initially, and the number of additional comments loaded when "View More" is pressed.
+| `node`                    | Yes         | A DOM node, which the comment section will be rendered inside.                                                                                                                   |
+| `defaultHomeserverUrl`    | Yes         | The full URL of a Matrix homeserver. This homeserver needs to have an instance of the Cactus appservice running, and have guest registrations enabled.                           |
+| `serverName`              | Yes         | The server name of the same Matrix homeserver as above. This is usually just the domain part of the  homeserver url.
+| `siteName`                | Yes         | The `siteName` which you have registered via the appservice's chatbot interface.
+| `commentSectionId`        | Yes         | A string identifying the comment section used. If two client instances have the same string here, they will show the same comment section. Cannot contain underscores.
+| `pageSize`                | No          | An integer number of comments to show "per page". This is both the number of comments loaded initially, and the number of additional comments loaded when "View More" is pressed.
+| `loginEnabled`            | No          | Whether users can log in using Matrix without leaving the page. If false, the Login button becomes a Matrix.to link. Defaults to true. Introduced in v0.7.0.
+| `guestPostingEnabled`     | No          | Whether users can post without logging in with their Matrix user. If false, the textarea is disabled when the client is authenticated as a guest. Defaults to true. Introduced in v0.7.0.
 
 For example usage, see the [quick-start guide](../../getting-started/quick-start).
 

@@ -15,8 +15,8 @@ weight: 50
 The easiest way to try Cactus Comments out is following our [quick start
 guide](../quick-start). You can do it locally on a completely static site. If
 you already have a website running on WordPress, Hugo or something else
-entirely, check [the integrations page](../integrations) to see if we got you
-covered. If you run your own Matrix server, you can [self-host Cactus
+entirely, check [the integrations page](../../integrations) to see if we got
+you covered. If you run your own Matrix server, you can [self-host Cactus
 Comments](../../self-hosting/howto). We would love it, if you [engaged with the
 community](../../community/community) or otherwise
 [contributed](../../community/contribute). 💕.

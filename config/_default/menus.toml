@@ -17,6 +17,12 @@
   url = "/docs/self-hosting/"
 
 [[docs]]
+  name = "Integrations"
+  weight = 40
+  identifier = "integrations"
+  url = "/docs/integrations/"
+
+[[docs]]
   name = "Community"
   weight = 60
   identifier = "community"

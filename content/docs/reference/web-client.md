@@ -60,6 +60,7 @@ This function should be called somewhere in the embedding webpage, with one argu
 | `pageSize`                | No          | An integer number of comments to show "per page". This is both the number of comments loaded initially, and the number of additional comments loaded when "View More" is pressed.
 | `loginEnabled`            | No          | Whether users can log in using Matrix without leaving the page. If false, the Login button becomes a Matrix.to link. Defaults to true. Introduced in v0.7.0.
 | `guestPostingEnabled`     | No          | Whether users can post without logging in with their Matrix user. If false, the textarea is disabled when the client is authenticated as a guest. Defaults to true. Introduced in v0.7.0.
+| `updateInterval`          | No          | How often to fetch new comments. If zero or negative, updates are never fetched. Defaults to zero. Introduced in v0.8.0.
 
 For example usage, see the [quick-start guide](../../getting-started/quick-start).
 

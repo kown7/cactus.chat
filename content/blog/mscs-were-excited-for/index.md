@@ -103,6 +103,4 @@ We want Cactus Comments to be compliant with the Matrix standard, and not just *
 This is why we've decided to hold off on implementing these MSCs until they've been standardized in the official spec.
 Luckily, it looks like that could be any day now.
 
-*cut the matrix team some slack here, be nice* 🤗
-
 What do you think? What MSCs are you excited for?

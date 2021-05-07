@@ -3,7 +3,7 @@ title: "Web Client"
 description: "Reference for the Cactus Comments Web Client"
 lead: "Reference for the Cactus Comments Web Client"
 date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+lastmod: 2021-05-07T17:19:00+00:00
 draft: false
 images: []
 menu:
@@ -44,6 +44,8 @@ The stylesheet is deliberately minimal, in order to maintain a consistent look w
 
 If you want to customize the look and feel of the web client, the best option is to get [the default stylesheet](https://gitlab.com/cactus-comments/cactus-client/-/blob/main/src/style.css) and modify it to your needs.
 
+If you do change the stylesheet, please consider using a [version-specific link to the web client javascript](https://gitlab.com/cactus-comments/cactus-client/-/releases), to avoid breaking changes that might occur on [latest.cactus.chat](https://latest.cactus.chat).
+
 
 ## Configuration
 
@@ -52,7 +54,7 @@ This function should be called somewhere in the embedding webpage, with one argu
 
 | Name                      | Required?   | Description                                                                                                                                                                      |
 | ------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `node`                    | Yes         | A DOM node, which the comment section will be rendered inside.                                                                                                                   |
+| `node`                    | Yes         | A DOM node, which the comment section will be rendered inside. If you pass a string, `document.querySelector` is used to find a DOM node (from v0.9.0).                          |
 | `defaultHomeserverUrl`    | Yes         | The full URL of a Matrix homeserver. This homeserver needs to have an instance of the Cactus appservice running, and have guest registrations enabled.                           |
 | `serverName`              | Yes         | The server name of the same Matrix homeserver as above. This is usually just the domain part of the  homeserver url.
 | `siteName`                | Yes         | The `siteName` which you have registered via the appservice's chatbot interface.
@@ -63,6 +65,26 @@ This function should be called somewhere in the embedding webpage, with one argu
 | `updateInterval`          | No          | How often to fetch new comments. If zero or negative, updates are never fetched. Defaults to zero. Introduced in v0.8.0.
 
 For example usage, see the [quick-start guide](../../getting-started/quick-start).
+
+### Configuration using data attributes
+
+You can also initialize a comment section by setting [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+on a script tag that imports the web client.
+This can be useful if using a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) that doesn't allow `unsafe-inline`.
+
+When using data attributes, the `node` parameter becomes optional. It defaults to replacing the `script` element itself with a comment section.
+
+The data attribute parameters use are all prefixed with `data-` and use [kebab-casing](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles), where `initComments` would use [camelCasing](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles).
+
+Here's a minimal working example using data attributes:
+
+```html
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"
+        data-default-homeserver-url="https://matrix.cactus.chat:8448"
+        data-server-name="cactus.chat"
+        data-site-name="my-blog"
+        data-comment-section-id="example-page"></script>
+```
 
 
 ## Releases

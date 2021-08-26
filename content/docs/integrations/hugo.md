@@ -29,12 +29,12 @@ initComments({
   node: document.getElementById("comment-section"),
   defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
   serverName: "cactus.chat",
-  siteName: "hyteck",
+  siteName: "<YOUR-SITE-NAME>",
   commentSectionId: "{{ index .Params 0 }}"
 })
 </script>
 ```
-If you want to use this, replace the site name with the one you registered.
+"You can see all configuration options [here](https://cactus.chat/docs/reference/web-client/#configuration)
 
 # Add chat to post
 
